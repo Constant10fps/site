@@ -1,3 +1,24 @@
-<h1>Welcome to hell</h1>
-<p>Visit <a href="https://youtube.com">kit.svelte.dev</a> to go</p>
-<p>What are you doing here</p>
+<script lang="ts">
+    import { Github, Twitter, Send } from "lucide-svelte";
+</script>
+
+<div class="flex flex-col items-center gap-3 py-12">
+    <img src="/favicon.png" alt="avatar" class="rounded-full aspect-square" />
+    <div class="text-2xl font-extrabold">Constant0fps</div>
+    <div>Pythonista, 2 years of experience</div>
+    <div class="flex gap-3">
+        <a
+            class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
+            href="https://t.me/Constant0fps"><Send /></a
+        >
+        <a
+            class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
+            href="https://github.com/Constant10fps"><Github /></a
+        >
+        <a
+            class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
+            href="https://twitter.com/Konstan91655710"><Twitter /></a
+        >
+    </div>
+</div>
+<div class="flex flex-col items-start">Projects</div>

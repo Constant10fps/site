@@ -17,6 +17,9 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.19(postcss@8.4.38)
+  lucide-svelte:
+    specifier: ^0.368.0
+    version: 0.368.0(svelte@4.2.14)
   postcss:
     specifier: ^8.4.32
     version: 8.4.38
@@ -1066,6 +1069,14 @@ packages:
   /lru-cache@10.2.0:
     resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
     engines: {node: 14 || >=16.14}
+    dev: true
+
+  /lucide-svelte@0.368.0(svelte@4.2.14):
+    resolution: {integrity: sha512-/uSazMXmY0cZzehGaE1SHQDtQrQBvAVR8UCEpNEjRKSy3yluSqtlGj7T5KvewJpP9kBDCKPgKVcKgdJgEzpRlw==}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5.0.0-next.42
+    dependencies:
+      svelte: 4.2.14
     dev: true
 
   /magic-string@0.30.9:
