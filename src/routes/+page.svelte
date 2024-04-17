@@ -21,4 +21,4 @@
         >
     </div>
 </div>
-<div class="flex flex-col items-start">Projects</div>
+<div class="grid overflow-auto">Projects</div>
