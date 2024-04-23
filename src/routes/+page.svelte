@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Shooter from "$lib/components/projects/shooter.svelte";
+	import Website from "$lib/components/projects/website.svelte";
 	import { Github, Twitter, Send, Slack } from "lucide-svelte";
 	export function copyDiscordId() {
 		navigator.clipboard.writeText("сonstant0fps");
@@ -32,43 +34,7 @@
 	</div>
 </div>
 <!--Projects-->
-<div class="grid grid-cols-2 gap-4">
-	<a
-		class="flex flex-row items-center gap-3 p-3 bg-left-top bg-slate-700 rounded-2xl hover:bg-slate-600 active:scale-95 transition-all"
-		href="https://github.com/Constant10fps/shooter"
-	>
-		<img
-			src="/pythonlogo.png"
-			alt="logo"
-			class="rounded-2xl aspect-square size-36"
-		/>
-		<div class="flex flex-col items-start">
-			<div class="text-xl font-bold">Python Project Example</div>
-			<div class="text-base font-medium text-left">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh arcu,
-				sollicitudin eget neque et, viverra maximus ex. Sed varius nibh non
-				egestas sodales. Pellentesque sodales sagittis orci vitae rutrum. Nunc
-				laoreet volutpat massa, sit.
-			</div>
-		</div>
-	</a>
-	<a
-		class="flex flex-row items-center gap-3 p-3 bg-left-top bg-slate-700 rounded-2xl hover:bg-slate-600 active:scale-95 transition-all"
-		href="https://github.com/Constant10fps/site"
-	>
-		<img
-			src="/tslogo.png"
-			alt="logo"
-			class="rounded-2xl aspect-square size-36"
-		/>
-		<div class="flex flex-col items-start">
-			<div class="text-xl font-bold">TypeScript Project Example</div>
-			<div class="text-base font-medium text-left">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh arcu,
-				sollicitudin eget neque et, viverra maximus ex. Sed varius nibh non
-				egestas sodales. Pellentesque sodales sagittis orci vitae rutrum. Nunc
-				laoreet volutpat massa, sit.
-			</div>
-		</div>
-	</a>
+<div class="grid md:grid-cols-2 gap-3">
+	<Shooter />
+	<Website />
 </div>
