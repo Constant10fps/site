@@ -11,7 +11,7 @@
 <div class="flex flex-col items-center gap-3 py-12">
 	<img src="/favicon.png" alt="avatar" class="rounded-full aspect-square" />
 	<div class="text-2xl font-extrabold">Constant0fps</div>
-	<div class="align-center">
+	<div class="align-center text-center">
 		Pythonista, 2 years of experience/ TS | JS junior-intermediate level
 	</div>
 	<div class="flex gap-3">
@@ -34,7 +34,7 @@
 	</div>
 </div>
 <!--Projects-->
-<div class="grid md:grid-cols-2 gap-3">
+<div class="grid lg:grid-cols-2 gap-3">
 	<Shooter />
 	<Website />
 </div>
