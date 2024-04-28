@@ -1,7 +1,8 @@
 <script lang="ts">
     import ProjectCard from "$lib/components/projectCard.svelte";
     import Discord from "$lib/components/discord.svelte";
-    import { Github, Twitter, Send, Slack } from "lucide-svelte";
+    import Telegram from "$lib/components/telegram.svelte";
+    import { Github, Twitter } from "lucide-svelte";
     export function copyDiscordId() {
         navigator.clipboard.writeText("сonstant0fps");
     }
@@ -17,7 +18,7 @@
     <div class="flex gap-3">
         <a
             class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
-            href="https://t.me/Constant0fps"><Send /></a
+            href="https://t.me/Constant0fps"><Telegram /></a
         >
         <a
             class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
