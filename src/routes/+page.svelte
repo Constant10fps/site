@@ -1,5 +1,6 @@
 <script lang="ts">
     import ProjectCard from "$lib/components/projectCard.svelte";
+    import Discord from "$lib/components/discord.svelte";
     import { Github, Twitter, Send, Slack } from "lucide-svelte";
     export function copyDiscordId() {
         navigator.clipboard.writeText("сonstant0fps");
@@ -22,10 +23,10 @@
             class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
             href="https://github.com/Constant10fps"><Github /></a
         >
-        <!--<button
-			class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
-			on:click={copyDiscordId}><Slack /></button
-		>-->
+        <button
+            class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
+            on:click={copyDiscordId}><Discord /></button
+        >
         <a
             class="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-90 transition-all"
             href="https://twitter.com/Konstan91655710"><Twitter /></a
