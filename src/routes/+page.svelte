@@ -44,10 +44,4 @@
         url="https://github.com/Constant10fps/site"
         description="The website you're currently on. In development"
     />
-    <ProjectCard
-        title="test"
-        image="/site.png"
-        url="https://github.com/Constant10fps/site"
-        description="test"
-    />
 </div>
