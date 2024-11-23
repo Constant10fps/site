@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif", "system-ui"]
-      }
-    }
-  }
+        sans: ["Noto Sans Mono", "sans-serif", "system-ui"],
+      },
+    },
+  },
 } satisfies Config;
