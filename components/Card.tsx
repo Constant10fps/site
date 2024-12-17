@@ -7,7 +7,7 @@ export default function Card(
         <a href={page_url}>
           <img src={image} alt="image of a project" />
           <div class="p-5 text-xl font-bold">{title}</div>
-          <div class="text-lg">{desc}</div>
+          <div>{desc}</div>
         </a>
       </button>
     </main>
