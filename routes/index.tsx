@@ -43,7 +43,16 @@ export default function Home() {
           title={"Duty Bot"}
           desc={"A Telegram bot to manage class duty management. Currently in use."}
           page_url={"https://github.com/Constant10fps/duty-bot"}
-          image={"/tslogo.svg"}
+        />
+        <Card
+          title={"My website"}
+          desc={"This website you're on! Built with Deno Fresh. In development."}
+          page_url={"/"}
+        />
+        <Card
+          title={"Mediane Bot"}
+          desc={"A project I work on with mckoda09. Used for canteen management."}
+          page_url={"https://github.com/mckoda09/mediane-bot"}
         />
       </div>
     </main>

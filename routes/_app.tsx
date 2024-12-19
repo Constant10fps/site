@@ -12,6 +12,7 @@ export default function App({ Component }: PageProps) {
         />
         <title>Constant0fps</title>
         <link rel="stylesheet" href="/styles.css" />
+        <link rel="icon" href="me.jpg" />
       </head>
       <body>
         <Header />
