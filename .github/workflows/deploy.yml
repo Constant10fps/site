@@ -31,6 +31,6 @@ jobs:
         with:
           project: "constant0fps-site"
           entrypoint: "main.ts"
-          root: "."
+          root: ""
           
           
