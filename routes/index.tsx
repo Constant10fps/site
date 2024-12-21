@@ -2,6 +2,7 @@ import Card from "../components/Card.tsx";
 import Twitter from "../components/brands/Twitter.tsx";
 import Github from "../components/brands/Gtihub.tsx";
 import Send from "../components/brands/Send.tsx";
+import Telegram from "../components/brands/Telegram.tsx";
 import DiscordButton from "../islands/Discord.tsx";
 
 export default function Home() {
@@ -13,9 +14,16 @@ export default function Home() {
         <a
           target="_blank"
           class="button-link"
-          href="https://t.me/Constant0fps"
+          href="mailto:constant0fps@yandex.ru"
         >
           <Send />
+        </a>
+        <a
+          target="_blank"
+          class="button-link"
+          href="https://t.me/Constant0fps"
+        >
+          <Telegram />
         </a>
         <a
           target="_blank"
